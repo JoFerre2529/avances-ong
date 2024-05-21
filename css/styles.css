@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,7 +10,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #36827f;
     color: white;
 }
 
@@ -40,13 +41,53 @@ header nav ul li a:hover {
 }
 
 .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     text-align: center;
-    padding: 20px;
 }
 
 h1 {
-    margin-bottom: 20px;
     font-size: 2em;
+    color: #2272ED;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #36827f;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.palette {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.color {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
 
 .card-container {
@@ -60,62 +101,111 @@ h1 {
     background-color: #fff;
     border: 2px solid #eaeaea;
     border-radius: 10px;
-    width: 200px;
-    padding: 20px;
+    width: 250px; /* Increased width */
+    padding: 30px; /* Increased padding */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 .profile-img {
-    width: 100px;
-    height: 100px;
+    width: 120px; /* Increased size */
+    height: 120px; /* Increased size */
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-    margin: 0 auto 15px auto;
+    margin: 0 auto 20px auto; /* Increased margin */
 }
 
 h2 {
-    margin: 10px 0;
-    font-size: 1.2em;
+    margin: 15px 0; /* Adjusted margin */
+    font-size: 1.4em; /* Increased font size */
     color: #333;
 }
 
 button {
-    background-color: #f37a27;
+    background-color: #35a7ff;
     color: #fff;
     border: none;
-    padding: 10px 20px;
-    font-size: 1em;
+    padding: 12px 24px; /* Increased padding */
+    font-size: 1.1em; /* Increased font size */
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #d96a20;
-}
-
-.team-info {
-    text-align: center;
-    padding: 20px;
-    background-color: #fff;
-    margin-top: 20px;
-    border-top: 1px solid #eaeaea;
-}
-
-.team-info p {
-    font-size: 1.1em;
-    color: #333;
-    margin: 5px 0;
+    background-color: #1a1b41;
 }
 
 footer {
-    background-color: #333;
+    background-color: #36827f;
     color: white;
     text-align: center;
     padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+
+.container-waterhold {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.team-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-info p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.logo-uade {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo-uade img {
+    max-width: 150px;
+}
+
+.proposal-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px 0;
+}
+
+.proposal-section h2 {
+    color: #2272ED;
+    text-align: left;
+}
+
+.proposal-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.proposal-content p {
+    flex: 1;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.proposal-content img {
+    width: 400px; 
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #2272ED;
 }
